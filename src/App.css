@@ -2,37 +2,113 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.profile {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.share-icon {
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  margin-left: 45rem;
+  margin-top: 2rem;
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4.5rem;
+}
+
+hr {
+  margin-top: 7rem;
+  color: black;
+  width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span {
+  color: red;
+  font-size: 3rem;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.button-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eaecf0;
+  width: 1200px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  border-radius: 8px;
+}
+
+.button-link:hover {
+  background-color: lightgray;
+}
+
+.icon {
+  color: lightslategray;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.footer-icon {
+  margin-top: 2rem;
+  width: 30px;
+  height: 30px;
+}
+
+.git-icon {
+  margin-left: 1.5rem;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zuri-text {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.hng-text {
+  color: gray;
+  margin-left: auto;
+  
+}
+
+.good-img {
+  width: 10rem;
+  height: 2.7rem;
+  margin-left: auto;
 }
