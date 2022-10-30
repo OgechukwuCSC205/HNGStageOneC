@@ -111,12 +111,14 @@ span {
 }
 
 .zuri-text {
+  margin-top: 0;
   font-size: 1.7rem;
   font-weight: 700;
 }
 
 .hng-text {
   color: gray;
+  margin-top: 2rem;
   margin-left: auto;
   
 }
@@ -124,6 +126,7 @@ span {
 .good-img {
   width: 10rem;
   height: 2.7rem;
+  margin-top: 1rem;
   margin-left: auto;
 }
 
