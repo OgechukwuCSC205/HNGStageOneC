@@ -12,25 +12,30 @@ function App() {
       <img src={share} alt="share" className="share-icon" />
       
       <div className="profile">
-        <img src={profile} alt="Yoma Ata" width="100px" height="auto" />
+        <img id="profile__img" src={profile} alt="Yoma Ata" width="100px" height="auto" />
       </div>
-      <p className="profile-name">Ata Ogechukwu Marilyn</p>
-      <a href="https://training.zuri.team/" id="" className="button-link">
+      <p id="twitter" className="profile-name">Yoma</p>
+      <p id="slack" style={{display: "none"}}>yomata</p>
+      <a href="https://twitter.com/Yoma_lynata" id="" className="button-link">
         Twitter Link
+        <p className="sell-text">Check out Yoma's Twitter Page</p>
       </a>
-      <a href="https://training.zuri.team/" id="" className="button-link">
+      <a href="https://training.zuri.team/" id="btn__zuri" className="button-link">
         Zuri Team
       </a>
-      <a href="https://training.zuri.team/" id="" className="button-link">
+      <a href="http://books.zuri.team" id="books" className="button-link">
         Zuri Books
+        <p className="sell-text">Want to learn more on design and code? Check out <span>Zuri Books</span></p>
       </a>
-      <a href="https://training.zuri.team/" id="" className="button-link">
+      <a href="https://books.zuri.team/python-for-beginners?ref_id=yomata" id="book__python" className="button-link">
         Python Books
+        <p className="sell-text">Ever wanted to learn Python? Check out <span>Zuri Python Books</span></p>
       </a>
-      <a href="https://training.zuri.team/" id="" className="button-link">
+      <a href="https://background.zuri.team" id="pitch" className="button-link">
         Background checks for Coders
+        <p className="sell-text">Wondering if Mark's a good and trustworthy programmer? Check out our website for doing background checks on coders</p>
       </a>
-      <a href="https://training.zuri.team/" id="" className="button-link">
+      <a href="https://books.zuri.team/design-rules" id="book__design" className="button-link">
         Design Books
       </a>
 
